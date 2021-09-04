@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+/*College Name and Logo*/
+.collegeinfo {
+  text-align: center;
+  position: relative;
+  font-size: 2.3em;
+}
+
+.collegeinfo #name {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  margin: 30px 50px;
+  top: -20%;
+}
+
+/*Nav-Bar*/
+.topnav {
+  text-align: center;
+  background-color: #333;
+  width: auto;
+  position: relative;
+  border: 0.13em solid #fff;
+  border-radius: 0.13em;
+}
+
+.topnav #myLinks {
+  display: inline;
+  text-align: center;
+  font-size: large;
+}
+
+.topnav #myLinks a:hover {
+  background-color: #101010;
+  color: #ddd;
+}
+
+.topnav a {
+  color: rgb(255, 255, 255);
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: inline;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #101010;
+}
+
+/*
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #101010;
+  color: #ddd;
+  text-align: center;
+}
+*/
+
+/* footer section */
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 15px 0;
+  background: #101010;
+  color: #ddd;
+}
+.footer h4 {
+  margin-bottom: 5px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+.icons {
+  position: relative;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ddd;
+}
+
+.icons .fab {
+  color: #f44336;
+  margin: 0px 7px;
+  cursor: pointer;
+  padding: 6px 0;
+}
