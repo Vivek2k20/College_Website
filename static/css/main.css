@@ -1,3 +1,28 @@
+/*Animations*/
+@keyframes selectedmainmenu {
+  0% {
+    background-color: #333;
+    color: #fff;
+    border: 0.13em solid #333;
+  }
+  100% {
+    background-color: #101010;
+    color: #ddd;
+    border: 0.13em solid #ddd;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 body {
   background-color: black;
   color: #fff;
@@ -7,6 +32,8 @@ body {
 .collegeinfo {
   text-align: center;
   position: relative;
+  display: inline-flex;
+  left: 25%;
   font-size: 2.3em;
 }
 
@@ -37,6 +64,9 @@ body {
 
 .topnav #myLinks a:hover {
   background-color: #101010;
+  border: 0.13em solid #ddd;
+  animation-name: selectedmainmenu;
+  animation-duration: 0.5s;
   color: #ddd;
 }
 
@@ -53,23 +83,11 @@ body {
   color: #101010;
 }
 
-/*
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #101010;
-  color: #ddd;
-  text-align: center;
-}
-*/
-
 /* footer section */
 
 .footer {
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
   text-align: center;
   padding: 15px 0;
@@ -98,4 +116,13 @@ body {
   margin: 0px 7px;
   cursor: pointer;
   padding: 6px 0;
+}
+
+/*Home*/
+.home_contents {
+  margin-top: 2em;
+  margin-bottom: 10em;
+  text-align: center;
+  animation-name: fadein;
+  animation-duration: 2.5s;
 }
