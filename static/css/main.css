@@ -50,6 +50,7 @@ body {
 .topnav {
   text-align: center;
   background-color: #333;
+  margin-top: 1%;
   width: auto;
   position: relative;
   border: 0.13em solid #fff;
@@ -65,6 +66,7 @@ body {
 .topnav #myLinks a:hover {
   background-color: #101010;
   border: 0.13em solid #ddd;
+  text-decoration: underline;
   animation-name: selectedmainmenu;
   animation-duration: 0.5s;
   color: #ddd;
@@ -116,13 +118,4 @@ body {
   margin: 0px 7px;
   cursor: pointer;
   padding: 6px 0;
-}
-
-/*Home*/
-.home_contents {
-  margin-top: 2em;
-  margin-bottom: 10em;
-  text-align: center;
-  animation-name: fadein;
-  animation-duration: 2.5s;
 }

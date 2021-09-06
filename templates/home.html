@@ -1,5 +1,6 @@
 {% extends 'base.html' %} {% block head %}
 <title>Home</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/home.css')}}" />
 {% endblock %} {% block body %}
 <div class="home_contents">
   <img
@@ -7,5 +8,32 @@
     alt="College Photo"
     style="width: 1200px; height: 600px"
   />
+  <div class="about_us">
+    <h1>Welcome to Bangalore Institute of Technology</h1>
+    <p>
+      Bangalore Institute of Technology (BIT) was started in the year 1979 with
+      the objective of providing quality education in the ﬁeld of Technology and
+      thereby serving the society. It has reached enviable level of excellence
+      in technical education.The college thrives to achieve the all-round
+      development of the students.<br />
+      BIT has always been at the forefront of modern technology and has the
+      distinction of being the ﬁrst College to introduce a full-ﬂedged degree in
+      Computer Science and Engineering in Karnataka. The institute has
+      visualized the areas of future growth and incorporated various courses
+      over the years.
+      <br />At present BIT has 10 undergraduate, 10 post graduate and 13
+      research centers. BIT has an annual intake of 1300 students. There are a
+      number of centers carrying out inter-disciplinary research and many
+      collaborative programs exist between the college and other professional
+      institutions, like IISc, NAL. The Chemistry department has been recognized
+      as one of the latest research centers in Karnataka. BIT also has the
+      acclaim of being the Study center for IGNOU programmes.<br />
+      BIT is proud to say that it has 289 faculty members with excellent
+      knowledge and teaching caliber. 83 faculty members have PhD degree and 71
+      are pursuing PhD. Sixty percent of faculty members have served BIT for
+      more than twenty years. The Institution has 294 efficient and committed
+      team of supporting staff.
+    </p>
+  </div>
 </div>
 {% endblock %}

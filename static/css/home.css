@@ -1,0 +1,21 @@
+/*Home*/
+.home_contents {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  animation-name: fadein;
+  animation-duration: 2.5s;
+}
+
+.about_us {
+  text-align: center;
+}
+
+.about_us h1 {
+  text-decoration: underline;
+}
+
+.about_us p {
+  padding: 0% 20em;
+  font-size: 1.1em;
+}
