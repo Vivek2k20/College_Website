@@ -1,0 +1,65 @@
+{% extends 'base.html' %} {% block head %}
+<title>BIT-Departments</title>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static',filename='css/departments.css')}}"
+/>
+{% endblock %} {% block body %}
+
+<div class="course">
+  <h1><u>Departments</h1></u>
+  <p>
+    BIT offers 10 undergraduate programmes and 2 post graduate programmes across
+    various branches of Engineering.
+  </p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>Undergraduate</h3>
+      <p>
+        <b>Engineering(BE)</b>
+          <ul>
+            <li>Civil </li>
+            <li>Mechanical </li>
+            <li>Electrical and Electronics</li>
+            <li>Electronics and Communication</li>
+            <li>Computer Science</li>
+            <li>Electronics and Instrumentation</li>
+            <li>Industrial Engineering and Management</li>
+            <li>Electronics and Telecommunication</li>
+            <li>Information Science</li>
+            <li>Artificial Intelligence and Machine Learning</li>
+          </ul><br>
+      </p>
+    </div>
+
+    <div class="course-col">
+      <h3>Postgraduate</h3>
+      <p>
+        <b>Master of Business Administration (MBA)<br /></b>
+          <ul>
+            <li>Marketing Management</li>
+            <li>Financial Management</li>
+            <li>Human Resources Management</li>
+          </ul><br>
+        <b>Master of Computer Applications (MCA)</b>
+      </p>
+    </div>
+
+    <div class="course-col">
+      <h3>Others</h3>
+      <p>
+        <b>Basic Science</b><br />
+          <ul>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Mathematics</li>
+          </ul><br>
+        <b>Sports<br><br>
+        NSS-NCC<br><br>
+        Library<br></b>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
