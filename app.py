@@ -61,12 +61,38 @@ def index():
 
 '''
 #################################################################
-Courses Page
+Departments Page
 #################################################################
 '''
 @app.route("/departments",methods=["GET"])
 def departments():
     return render_template('departments.html')
+
+
+
+
+
+
+
+
+
+
+'''
+#################################################################
+Facilities Page
+#################################################################
+'''
+@app.route("/facilities",methods=["GET"])
+def facilities():
+    return render_template('facilities.html')
+
+
+
+
+
+
+
+
 
 
 
