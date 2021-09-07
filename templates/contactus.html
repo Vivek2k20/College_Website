@@ -8,6 +8,13 @@
 
 <h1>Contact Us!</h1>
 
+{% if msg %}
+<h2>
+  {{ msg }}<br />
+  We will get in touch with you shortly!
+</h2>
+{% endif %}
+
 <section class="contact-us">
   <div class="row">
     <div class="contact-col">
