@@ -41,19 +41,25 @@
           name="name"
           id="name"
           required
+          pattern="^[a-zA-Z-' ]*$"
+          title="Please enter only alphabets"
         />
         <input
           type="email"
-          name="email"
-          placeholder="Enter your Email id"
+          autocomplete="off"
           id="email"
+          name="email"
+          placeholder="Enter a valid Email"
           required
         />
         <input
-          type="number"
-          name="mobile"
-          placeholder="Enter your phone"
-          id="mobile"
+          type="tel"
+          autocomplete="off"
+          id="phone"
+          name="phone"
+          placeholder="Enter Valid Phone Number (Ex: 8448448501)"
+          maxlength="10"
+          pattern="[7896][0-9]{9}"
           required
         />
         <textarea
