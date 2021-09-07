@@ -37,6 +37,17 @@ def departments():
 
 
 
+'''
+#################################################################
+Contact Us Page
+#################################################################
+'''
+@app.route("/contactus",methods=["GET"])
+def contactus():
+    return render_template('contactus.html')
+
+
+
 
 
 

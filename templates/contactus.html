@@ -1,0 +1,78 @@
+{% extends 'base.html' %} {% block head %}
+<title>BIT-Contact Us</title>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static',filename='css/contactus.css')}}"
+/>
+{% endblock %} {% block body %}
+
+<h1>Contact Us!</h1>
+
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>Bangalore Institute of Technology</h5>
+          <p>K R Road,V V Puram,Bengaluru-560004,India</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>+91-080-26615865</h5>
+          <p>Monday to Saturday, 8AM to 6PM</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <span>
+          <h5>principal@bit-bangalore.edu.in</h5>
+          <p>Email us your query.</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <form id="frmContactus" method="POST">
+        <input
+          type="text"
+          placeholder="Enter your Name"
+          name="name"
+          id="name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your Email id"
+          id="email"
+          required
+        />
+        <input
+          type="number"
+          name="mobile"
+          placeholder="Enter your phone"
+          id="mobile"
+          required
+        />
+        <textarea
+          rows="8"
+          name="comment"
+          placeholder="Comment"
+          id="comment"
+        ></textarea>
+        <button
+          type="submit"
+          class="hero-btn red-btn"
+          name="submit"
+          id="submit"
+        >
+          SUBMIT
+        </button>
+        <span style="color: green" id="msg"></span>
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}
