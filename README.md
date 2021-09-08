@@ -2,8 +2,7 @@
 
 - A College Website.
 - Created as a part of internship with EXPOSYS DATA LABS.
-
-* Currently deployed on Heroku cloud at : [https://bitcollege.herokuapp.com/](https://bitcollege.herokuapp.com/)
+- Currently deployed on Heroku cloud at : [https://bitcollege.herokuapp.com/](https://bitcollege.herokuapp.com/).Use Laptop/PC for best results.
 
 ## Current Features:
 
