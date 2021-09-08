@@ -3,6 +3,8 @@
 - A College Website.
 - Created as a part of internship with EXPOSYS DATA LABS.
 
+* Currently deployed on Heroku cloud at : [https://bitcollege.herokuapp.com/](https://bitcollege.herokuapp.com/)
+
 ## Current Features:
 
 - Beautiful Dark Themed UI with Red Accent.
