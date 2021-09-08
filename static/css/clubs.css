@@ -18,6 +18,7 @@
 
 .clubs h1 {
   text-decoration: underline;
+  color: #f44336;
   padding-top: 40px;
 }
 
@@ -40,6 +41,7 @@
 }
 .gallery h1 {
   text-decoration: underline;
+  color: #f44336;
 }
 
 .row2 {

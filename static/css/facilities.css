@@ -1,6 +1,7 @@
 h1 {
   font-size: 35px;
   font-weight: 600;
+  color: #f44336;
 }
 
 .facilities {
@@ -66,6 +67,7 @@ h3 {
 .facilities-col h3 {
   margin-top: 10px;
   margin-bottom: 8px;
+  color: #f44336;
   text-align: center;
 }
 @media (max-width: 700px) {
@@ -78,5 +80,6 @@ h3 {
   }
   .facilities-col h3 {
     text-align: center;
+    color: #f44336;
   }
 }

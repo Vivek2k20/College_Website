@@ -2,13 +2,13 @@
 @keyframes selectedmainmenu {
   0% {
     background-color: #333;
-    color: #ddd;
+    color: #fff;
     border: 0.13em solid #333;
   }
   100% {
     background-color: #101010;
-    color: #fff;
-    border: 0.13em solid #fff;
+    color: #f44336;
+    border: 0.13em solid #f44336;
   }
 }
 
@@ -53,7 +53,7 @@ body {
   margin-top: 1%;
   width: auto;
   position: relative;
-  border: 0.13em solid #ddd;
+  border: 0.13em solid #fff;
   border-radius: 0.13em;
 }
 
@@ -65,15 +65,15 @@ body {
 
 .topnav #myLinks a:hover {
   background-color: #101010;
-  border: 0.13em solid #fff;
+  border: 0.13em solid #f44336;
   text-decoration: underline;
   animation-name: selectedmainmenu;
   animation-duration: 0.5s;
-  color: #fff;
+  color: #f44336;
 }
 
 .topnav a {
-  color: #ddd;
+  color: #fff;
   padding: 10px 40px;
   text-decoration: none;
   font-size: 1.3em;
@@ -95,6 +95,9 @@ body {
   padding: 15px 0;
   background: #101010;
   color: #ddd;
+}
+.footer h2 {
+  color: #f44336;
 }
 .footer h4 {
   margin-bottom: 5px;
