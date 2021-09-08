@@ -163,5 +163,6 @@ if __name__ == '__main__':
         except:
             g.db.rollback()
             g.db.close()
-    app.run(debug=True)
+    from waitress import serve
+    serve(app)
 

@@ -15,7 +15,7 @@
 
 - Install all the software requirements present in the requirements.txt file. They are also mentioned below.
 
-- Run "python app.py" in the terminal.The Website/Webapp will be hosted at localhost:5000.
+- Run "python app.py" in the terminal.The Website/Webapp will be hosted at localhost:8080.
 
 ## Hardware Requirements:
 
