@@ -61,6 +61,11 @@ h2 {
 
 .contact-col div p {
   padding: 0;
+  color: #fff;
+}
+
+.contact-col div a {
+  text-decoration: none;
 }
 
 .contact-col div h5 {
@@ -69,6 +74,12 @@ h2 {
   color: #fff;
   font-weight: 400;
 }
+
+.contact-col div h5 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .contact-col input,
 .contact-col textarea {
   width: 100%;
