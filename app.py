@@ -78,7 +78,7 @@ def settheme(accent):
     SetAccent(accent)
     try:
         if session['url']:
-            return redirect(session['url'],theme=CurrentAccent())
+            return redirect(session['url'])
     except:
         return redirect(url_for('index'),theme=CurrentAccent())
 
@@ -208,7 +208,7 @@ if __name__ == '__main__':
         except:
             g.db.rollback()
             g.db.close()
-    app.run()
+    app.run(debug=True)
 '''
     from waitress import serve
     serve(app)
