@@ -9,6 +9,13 @@
 
 - SQLite Database to store the details of contact form.
 
+* Menu :
+  - Home
+  - Departments
+  - Facilities
+  - Clubs
+  - Contact Us
+
 ## Steps to Execute:
 
 - Install the latest version of python and open the folder/directory in Visual Studio Code.
