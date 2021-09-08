@@ -8,6 +8,32 @@
       rel="stylesheet"
       href="{{ url_for('static',filename='css/main.css')}}"
     />
+    {% if theme=="red" %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/accent/red.css')}}"
+    />
+    {% elif theme=="green" %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/accent/green.css')}}"
+    />
+    {% elif theme=="orange" %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/accent/orange.css')}}"
+    />
+    {% elif theme=="yellow" %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/accent/yellow.css')}}"
+    />
+    {% elif theme=="purple" %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/accent/purple.css')}}"
+    />
+    {% endif %}
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -28,6 +54,30 @@
         style="width: 100px; height: 100px"
       />
       <div id="name"><b><u>Bangalore Institute of Technology</u></b></div>
+    </div>
+    <div class="accent">
+      Accent : <div class="accentbutton" >
+      <a href="javascript:void(0);" onclick="myFunction()">
+      {% if theme=="red" %}
+        <span class="reddot" style="position:absolute;top:5%;left:110%"</span>
+      {% elif theme=="green" %}
+      <span class="greendot" style="position:absolute;top:5%;left:110%"</span>
+      {% elif theme=="orange" %}
+      <span class="orangedot" style="position:absolute;top:5%;left:110%"</span>
+      {% elif theme=="yellow" %}
+      <span class="yellowdot" style="position:absolute;top:5%;left:110%"</span>
+      {% elif theme=="purple" %}
+      <span class="purpledot" style="position:absolute;top:5%;left:110%"</span>
+      {% endif %}
+      </a>
+      <div id="accent-menu">
+    <a href="theme/red"><span class="reddot"></span></a>
+    <a href="theme/green"><span class="greendot"></span></a>
+    <a href="theme/yellow"><span class="yellowdot"></span></a>
+    <a href="theme/orange"><span class="orangedot"></span></a>
+    <a href="theme/purple"><span class="purpledot"></span></a>
+  </div>
+      </div>
     </div>
     <div class="topnav">
       <div id="myLinks">
@@ -58,5 +108,17 @@
         ></a>
       </div>
     </div>
+    <script>
+                function myFunction() {
+                    var x = document.getElementById("accent-menu");
+                    if (x.style.display === "flex") 
+                    {
+                        x.style.display = "none";
+                    } else 
+                    {
+                        x.style.display = "flex";
+                    }
+                }
+            </script>
   </body>
 </html>

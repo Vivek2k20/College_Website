@@ -46,6 +46,78 @@ body {
   top: -20%;
 }
 
+/*Accents*/
+
+.accent {
+  position: absolute;
+  font-size: larger;
+  top: 10%;
+  left: 90%;
+}
+
+.accent #accent-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  border: 0.13em solid #fff;
+  border-radius: 0.13em;
+  z-index: 1;
+}
+
+.accent #accent-menu a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.accent #accent-menu a:hover {
+  background-color: #101010;
+}
+
+.greendot,
+.reddot,
+.yellowdot,
+.orangedot,
+.purpledot {
+  position: relative;
+}
+
+.greendot {
+  background-color: #6f3;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.reddot {
+  background-color: #f44336;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.yellowdot {
+  background-color: #ff0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.orangedot {
+  background-color: #f80;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.purpledot {
+  background-color: #a0f;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
 /*Nav-Bar*/
 .topnav {
   text-align: center;
@@ -61,15 +133,6 @@ body {
   display: inline;
   text-align: center;
   font-size: large;
-}
-
-.topnav #myLinks a:hover {
-  background-color: #101010;
-  border: 0.13em solid #f44336;
-  text-decoration: underline;
-  animation-name: selectedmainmenu;
-  animation-duration: 0.5s;
-  color: #f44336;
 }
 
 .topnav a {
@@ -96,9 +159,7 @@ body {
   background: #101010;
   color: #ddd;
 }
-.footer h2 {
-  color: #f44336;
-}
+
 .footer h4 {
   margin-bottom: 5px;
   margin-top: 7px;
@@ -117,7 +178,6 @@ body {
 }
 
 .icons .fab {
-  color: #f44336;
   margin: 0px 7px;
   cursor: pointer;
   padding: 6px 0;

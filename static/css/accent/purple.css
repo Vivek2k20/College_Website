@@ -1,0 +1,37 @@
+/*
+MAIN
+*/
+
+/*Animations*/
+@keyframes selectedmainmenu {
+  0% {
+    background-color: #333;
+    color: #fff;
+    border: 0.13em solid #333;
+  }
+  100% {
+    background-color: #101010;
+    color: #a0f;
+    border: 0.13em solid #a0f;
+  }
+}
+
+/*Nav-bar*/
+
+.topnav #myLinks a:hover {
+  background-color: #101010;
+  border: 0.13em solid #a0f;
+  text-decoration: underline;
+  animation-name: selectedmainmenu;
+  animation-duration: 0.5s;
+  color: #a0f;
+}
+
+/*Footer*/
+.footer h2 {
+  color: #a0f;
+}
+
+.icons .fab {
+  color: #a0f;
+}
