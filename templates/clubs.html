@@ -1,4 +1,103 @@
 {% extends 'base.html' %} {% block head %}
 <title>BIT-Clubs</title>
 <link rel="stylesheet" href="{{ url_for('static',filename='css/clubs.css')}}" />
-{% endblock %} {% block body %} {% endblock %}
+{% endblock %} {% block body %}
+<div class="page_contents">
+  <div class="clubs">
+    <h1><u>Clubs at BIT</u></h1>
+    <p>
+      BIT takes pride in having clubs that cater to every students needs and
+      promotes extracurricular activities. The aim of these clubs is to enrich
+      the social and cultural life on the campus. <br />Student Clubs are formed
+      around academic and national themes to add to the rich mosaics of student
+      life. Students who have common interest come together to form an
+      interesting, creative and one of a kind club committed to traditional life
+      for preservation of culture and so on. Cultural and Technical clubs play a
+      vital role in the overall development of students mindset and skill set as
+      they learn how to manage time, deal with responsibilities and juggle
+      between activities and studies.<br />
+      Currently,BIT has 20+ student clubs namely :
+    </p>
+    <ul>
+      <li>Rotaract club of BIT (RCBIT)</li>
+      <li>TEDx</li>
+      <li>Samskruthi</li>
+      <li>Shuttered photography club</li>
+      <li>Elevate club</li>
+      <li>Diminished</li>
+      <li>Dramatizers club</li>
+      <li>Robolution club</li>
+      <li>LEO club</li>
+      <li>Dance club</li>
+      <li>Aikya club</li>
+      <li>IRSC</li>
+      <li>Electronics and Communication Students Association (ECSA)</li>
+      <li>Voice club</li>
+      <li>YES+ Club BIT</li>
+      <li>ECO club</li>
+      <li>GOOGLE Students</li>
+      <li>IEEE BIT</li>
+      <li>KRATOS</li>
+      <li>Lakshya</li>
+      <li>Stratos</li>
+      <li>BIT Sports Club</li>
+      <li>IEDC</li>
+    </ul>
+  </div>
+</div>
+<div class="page_contents">
+  <div class="gallery">
+    <h1><u>Gallery</u></h1>
+    <div class="row2">
+      <div class="gallery-col">
+        <img
+          src="static\images\manthan.jpg"
+          alt="BIT Manthan"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+
+      <div class="gallery-col">
+        <img
+          src="static\images\manthan2.jpg"
+          alt="BIT Manthan 2"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+
+      <div class="gallery-col">
+        <img
+          src="static\images\kannadarajotsava.jpg"
+          alt="Kannada Rajotsava"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+    </div>
+    <div class="row2">
+      <div class="gallery-col">
+        <img
+          src="static\images\fashion-show.jpg"
+          alt="Fashion Show"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+
+      <div class="gallery-col">
+        <img
+          src="static\images\survey.jpg"
+          alt="Unnat Bharat Abhiyan Survey"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+
+      <div class="gallery-col">
+        <img
+          src="static\images\vaccination.jpg"
+          alt="Vaccination Drive"
+          style="width: 350px; height: 300px"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
