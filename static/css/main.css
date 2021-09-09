@@ -51,8 +51,8 @@ body {
 .accent {
   position: absolute;
   font-size: larger;
-  top: 10%;
-  left: 90%;
+  top: 7%;
+  left: 87%;
 }
 
 .accent #accent-menu {
@@ -61,6 +61,9 @@ body {
   background-color: #333;
   border: 0.13em solid #fff;
   border-radius: 0.13em;
+  height: 30px;
+  border-radius: 30px;
+  top: 120%;
   z-index: 1;
 }
 
@@ -69,6 +72,7 @@ body {
   padding: 5px;
   text-decoration: none;
   display: flex;
+  border-radius: 30px;
 }
 
 .accent #accent-menu a:hover {
