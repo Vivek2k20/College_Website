@@ -29,10 +29,11 @@
 
 ## ScreenShots :
 
+<p align="center">
+
 ![Home Page](/static/images/sc/Home1.JPG)
 
-<style>text-align: center;
-</style><br><center>
+<br><center>
 
 **Home Page**
 
@@ -92,3 +93,5 @@
 
 <br></center>
 <br>
+
+</p>
