@@ -29,8 +29,8 @@
 
 ## ScreenShots :
 
-- ![Home Page]("/static/images/sc/Home1.JPG")
-- ![Departments Page]("/static/images/sc/Departments.JPG")
+- ![Home Page](/static/images/sc/Home1.JPG)
+- ![Departments Page](/static/images/sc/Departments.JPG)
 - ![Facilities Page]("/static/images/sc/Facilities 1.JPG")
 - ![Clubs Page 1(Clubs)]("/static/images/sc/Clubs 1.JPG")
 - ![Clubs Page 2(Gallery)]("/static/images/sc/Clubs 2.JPG")
