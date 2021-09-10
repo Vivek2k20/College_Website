@@ -33,11 +33,11 @@
 
 ![Home Page](/static/images/sc/Home1.JPG)
 
-<br><center>
+<br>
 
 **Home Page**
 
-<br></center>
+<br>
 <br>
 
 ![Departments Page](/static/images/sc/Departments.JPG)
@@ -86,11 +86,9 @@
 <br>
 
 ![Accent Menu](/static/images/sc/Accent_Menu.JPG)
-
 <br><center>
 
 **Accent Menu**
-
 <br></center>
 <br>
 
