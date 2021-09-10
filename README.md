@@ -31,7 +31,8 @@
 
 ![Home Page](/static/images/sc/Home1.JPG)
 
-<br><center>
+<style>text-align: center;
+</style><br><center>
 
 **Home Page**
 
