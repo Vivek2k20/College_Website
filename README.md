@@ -9,8 +9,7 @@
 - Beautiful Dark Themed UI with 5 Accent colours(Red,Green,Yellow,Orange,Purple).
 - Session to store Accent preference of users and previously visited page(To loading the page when accent is changed).
 - SQLite Database to store the details of contact form.
-
-* Menu :
+- Menu :
   - Home
   - Departments
   - Facilities
