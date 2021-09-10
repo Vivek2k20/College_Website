@@ -35,3 +35,41 @@ MAIN
 .icons .fab {
   color: #6f3;
 }
+
+/*Departments*/
+h1,
+h3 {
+  color: #6f3;
+}
+
+/*Facilities*/
+h1,
+h3 .facilities-col h3 {
+  color: #6f3;
+}
+
+@media (max-width: 700px) {
+  .facilities-col h3 {
+    color: #6f3;
+  }
+}
+
+/*Clubs*/
+
+.clubs h1 {
+  text-decoration: underline;
+  color: #6f3;
+  padding-top: 40px;
+}
+.gallery h1 {
+  text-decoration: underline;
+  color: #6f3;
+}
+
+/*Contact Us*/
+h1,
+h2,
+.hero-btn:hover,
+.contact-col div .fa {
+  color: #6f3;
+}
