@@ -20,11 +20,19 @@
 ## Steps to Execute:
 
 - Install the latest version of python and open the folder/directory in Visual Studio Code.
-
 - Install all the software requirements present in the requirements.txt file. They are also mentioned below.
-
 - Run "python app.py" in the terminal.The Website/Webapp will be hosted at localhost:8080.
 
 ## Hardware Requirements:
 
 - A PC with Internet Connection
+
+## ScreenShots :
+
+- ![Home Page]("/static/images/sc/Home1.JPG")
+- ![Departments Page]("/static/images/sc/Departments.JPG")
+- ![Facilities Page]("/static/images/sc/Facilities 1.JPG")
+- ![Clubs Page 1(Clubs)]("/static/images/sc/Clubs 1.JPG")
+- ![Clubs Page 2(Gallery)]("/static/images/sc/Clubs 2.JPG")
+- ![Contact Us Page]("/static/images/sc/Contact Us.JPG")
+- ![Accent Menu]("/static/images/sc/Accent Menu.JPG")
