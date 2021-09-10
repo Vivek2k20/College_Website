@@ -31,16 +31,63 @@
 
 ![Home Page](/static/images/sc/Home1.JPG)
 
+<br><center>
+
 **Home Page**
+
+<br></center>
+<br>
+
 ![Departments Page](/static/images/sc/Departments.JPG)
+
+<br><center>
+
 **Departments Page**
+
+<br></center>
+<br>
+
 ![Facilities Page](/static/images/sc/Facilities_1.JPG)
+
+<br><center>
+
 **Facilities Page**
+
+<br></center>
+<br>
+
 ![Clubs Page 1(Clubs)](/static/images/sc/Clubs_1.JPG)
+
+<br><center>
+
 **CLubs Page 1**
+
+<br></center>
+<br>
+
 ![Clubs Page 2(Gallery)](/static/images/sc/Clubs_2.JPG)
+
+<br><center>
+
 **Clubs Page 1**
+
+<br></center>
+<br>
+
 ![Contact Us Page](/static/images/sc/Contact_Us.JPG)
+
+<br><center>
+
 **Contact Us Page**
+
+<br></center>
+<br>
+
 ![Accent Menu](/static/images/sc/Accent_Menu.JPG)
+
+<br><center>
+
 **Accent Menu**
+
+<br></center>
+<br>
