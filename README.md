@@ -29,10 +29,12 @@
 
 ## ScreenShots :
 
-- ![Home Page](/static/images/sc/Home1.JPG)
-- ![Departments Page](/static/images/sc/Departments.JPG)
-- ![Facilities Page]("/static/images/sc/Facilities 1.JPG")
-- ![Clubs Page 1(Clubs)]("/static/images/sc/Clubs 1.JPG")
-- ![Clubs Page 2(Gallery)]("/static/images/sc/Clubs 2.JPG")
-- ![Contact Us Page]("/static/images/sc/Contact Us.JPG")
-- ![Accent Menu]("/static/images/sc/Accent Menu.JPG")
+![Home Page](/static/images/sc/Home1.JPG)
+
+<center>**HOME PAGE**</center>
+![Departments Page](/static/images/sc/Departments.JPG)
+![Facilities Page](/static/images/sc/Facilities_1.JPG)
+![Clubs Page 1(Clubs)](/static/images/sc/Clubs_1.JPG)
+![Clubs Page 2(Gallery)](/static/images/sc/Clubs_2.JPG)
+![Contact Us Page](/static/images/sc/Contact_Us.JPG)
+![Accent Menu](/static/images/sc/Accent_Menu.JPG)
