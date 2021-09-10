@@ -31,10 +31,16 @@
 
 ![Home Page](/static/images/sc/Home1.JPG)
 
-<center>**HOME PAGE**</center>
+**Home Page**
 ![Departments Page](/static/images/sc/Departments.JPG)
+**Departments Page**
 ![Facilities Page](/static/images/sc/Facilities_1.JPG)
+**Facilities Page**
 ![Clubs Page 1(Clubs)](/static/images/sc/Clubs_1.JPG)
+**CLubs Page 1**
 ![Clubs Page 2(Gallery)](/static/images/sc/Clubs_2.JPG)
+**Clubs Page 1**
 ![Contact Us Page](/static/images/sc/Contact_Us.JPG)
+**Contact Us Page**
 ![Accent Menu](/static/images/sc/Accent_Menu.JPG)
+**Accent Menu**
